@@ -7,6 +7,7 @@
 [![Licença](https://img.shields.io/badge/licença-MIT-green)](LICENSE)
 
 **Site:** https://victoroleskovicz.github.io/portfolio-hub/
+**LinkedIn:** https://www.linkedin.com/in/victoroleskovicz
 
 ---
 
@@ -48,3 +49,4 @@ O repositório segue [versionamento semântico](https://semver.org/lang/pt-BR/) 
 ## Contato
 
 - GitHub: [@VictorOleskovicz](https://github.com/VictorOleskovicz)
+- LinkedIn: [victoroleskovicz](https://www.linkedin.com/in/victoroleskovicz)
