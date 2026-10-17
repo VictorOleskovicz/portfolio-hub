@@ -1,0 +1,9 @@
+id_venda,data_venda,produto,uf,quantidade,preco_unitario
+1,02/09/2026,notebook,df,2,"4500,00"
+2,03/09/2026,mouse,go,10,"89,90"
+3,05/09/2026,monitor,rs,3,"1200,50"
+4,07/09/2026,teclado,df,5,"249,00"
+5,31/02/2026,headset,sp,1,"399,90"
+6,10/09/2026,webcam,go,0,"299,00"
+7,12/09/2026,notebook,sp,1,"4500,00"
+8,15/09/2026,monitor,df,2,"1200,50"
