@@ -1,0 +1,7 @@
+# Todo arquivo do repositório exige revisão do dono.
+# Referência: https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+*                     @VictorOleskovicz
+
+# Arquivos sensíveis de configuração e segurança
+/.github/             @VictorOleskovicz
+/SECURITY.md          @VictorOleskovicz
