@@ -1,9 +1,9 @@
 # Uso do Google Gemini como guia da implantação
 
-O Gemini (conta institucional UniCEUB, Google Workspace for Education) foi usado como guia em duas consultas.
+Usei o Gemini da minha conta institucional do UniCEUB como guia, em duas consultas.
 Conversa: "Plano de Implantação PortfolioHUB", 26/10/2026.
 
-## Consulta 1 — Plano de implantação
+## Consulta 1: plano de implantação
 
 **Prompt (resumo):** montar um plano de implantação em fases (planejamento, integração com GitHub, gestão de usuários e segurança, compartilhamento e controle de acesso, finalização e testes, revisão), com entregáveis e critério de pronto.
 
@@ -11,14 +11,14 @@ Conversa: "Plano de Implantação PortfolioHUB", 26/10/2026.
 
 | Recomendação do Gemini | Aplicado? |
 |---|---|
-| Publicar pelo GitHub Pages a partir da `main`, pasta raiz | ✅ já publicado |
-| Branch protection na `main`, exigir PR e bloquear *force push* | ✅ ruleset `protecao-main` |
-| Metatags Open Graph para pré-visualização ao compartilhar o link | ✅ `index.html` |
-| Varredura de links quebrados e teste de responsividade | ✅ `scripts/check_links.py` no CI |
-| Atualizar README, About do repositório e CHANGELOG | ✅ v1.2 |
-| Domínio personalizado | ⏭️ não aplicado (sem domínio próprio) |
+| Publicar pelo GitHub Pages a partir da `main`, pasta raiz | Sim, já estava publicado |
+| Branch protection na `main`, exigir PR e bloquear *force push* | Sim, ruleset `protecao-main` |
+| Metatags Open Graph para pré-visualização ao compartilhar o link | Sim, no `index.html` |
+| Varredura de links quebrados e teste de responsividade | Links: sim, `scripts/check_links.py` no CI. Responsividade: testada na largura de celular (375 px), sem rolagem horizontal |
+| Atualizar README, About do repositório e CHANGELOG | README e CHANGELOG sim (v1.2); o About já descrevia o projeto |
+| Domínio personalizado | Não, pois não tenho domínio próprio |
 
-## Consulta 2 — Políticas de segurança e gestão de usuários
+## Consulta 2: políticas de segurança e gestão de usuários
 
 **Prompt (resumo):** políticas recomendadas (OWASP/GitHub) para um repositório público pessoal: 2FA, ruleset, CODEOWNERS, SECURITY.md, Dependabot, secret scanning, private vulnerability reporting, permissões de colaboradores e `.gitignore`.
 
@@ -34,4 +34,4 @@ Conversa: "Plano de Implantação PortfolioHUB", 26/10/2026.
 | Menor privilégio para colaboradores | [seguranca-e-acessos.md](seguranca-e-acessos.md) |
 | `.gitignore` com `.env`, `venv/`, `*.log` | `.gitignore` |
 
-> O Gemini pode errar: cada recomendação foi conferida na documentação do GitHub antes de ser aplicada.
+> Como o Gemini pode errar, conferi cada recomendação na documentação do GitHub antes de aplicar.
