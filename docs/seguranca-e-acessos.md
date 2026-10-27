@@ -3,7 +3,7 @@
 ## 1. Conta
 
 - Login com **passkey** configurada na conta `@VictorOleskovicz` (dono e único admin).
-- **2FA por aplicativo autenticador: pendente** — próxima ação, recomendada pelo Gemini (Settings → Password and authentication → Enable 2FA).
+- **2FA por aplicativo autenticador: pendente.** É a próxima ação, recomendada pelo Gemini (Settings → Password and authentication → Enable 2FA).
 
 ## 2. Ruleset da branch `main` (`protecao-main`)
 
@@ -11,7 +11,7 @@
 |---|---|
 | Restrict deletions | Ninguém apaga a branch publicada |
 | Block force pushes | Histórico não pode ser reescrito |
-| Require a pull request before merging | Nenhum commit direto: toda mudança passa por PR (o `CODEOWNERS` é chamado como revisor automaticamente; com mantenedor único, o número de aprovações fica em 0 — ao entrar um colaborador com Write, passa a 1) |
+| Require a pull request before merging | Nenhum commit direto: toda mudança passa por PR (o `CODEOWNERS` é chamado como revisor automaticamente; com mantenedor único, o número de aprovações fica em 0; ao entrar um colaborador com Write, passa a 1) |
 | Require status checks to pass (`Testes do pipeline ETL`, `Links do site e da documentação`) | Nada quebrado chega ao site |
 
 ## 3. Papéis de colaboradores (menor privilégio)
@@ -21,7 +21,7 @@
 | Read | Professor / avaliador (repo é público, nem precisa de convite) | Ver código, abrir issues |
 | Triage | Colega que ajuda a organizar issues | Rotular, fechar issues |
 | Write | Colega de grupo que contribui com código | Criar branches e PRs (merge na `main` ainda exige PR + CI + aprovação) |
-| Maintain | — (não usado) | Gerenciar o repo sem acesso a configurações sensíveis |
+| Maintain | Não usado | Gerenciar o repo sem acesso a configurações sensíveis |
 | Admin | Somente o dono | Tudo |
 
 **Como convidar:** Settings → Collaborators → *Add people* → escolher o papel. Acesso é revisto ao fim de cada projeto.
@@ -35,7 +35,7 @@
 
 ## 5. O que não é versionado
 
-`.env`, `venv/`, `*.log`, chaves (`*.pem`, `*.key`) e os bancos gerados pelo pipeline (`*.db`) — ver `.gitignore`.
+`.env`, `venv/`, `*.log`, chaves (`*.pem`, `*.key`) e os bancos gerados pelo pipeline (`*.db`). Ver `.gitignore`.
 
 ## 6. Fluxo de colaboração
 
