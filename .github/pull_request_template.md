@@ -4,10 +4,10 @@
 
 ## Tipo
 
-- [ ] feat — nova funcionalidade ou projeto
-- [ ] fix — correção
-- [ ] docs — documentação
-- [ ] chore / ci — manutenção
+- [ ] feat: nova funcionalidade ou projeto
+- [ ] fix: correção
+- [ ] docs: documentação
+- [ ] chore / ci: manutenção
 
 ## Checklist
 
