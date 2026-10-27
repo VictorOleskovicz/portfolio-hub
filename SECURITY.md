@@ -26,7 +26,7 @@ Prazo de resposta: até 5 dias úteis. Após a correção, o relato é creditado
 - `CODEOWNERS`: o dono é solicitado como revisor em todo PR.
 - Dependabot (alertas e atualizações de segurança) e `dependabot.yml`.
 - *Secret scanning* com *push protection*.
-- 2FA na conta do mantenedor.
+- Passkey na conta do mantenedor (2FA por app autenticador: pendente).
 - `.gitignore` bloqueando `.env`, bancos gerados e arquivos temporários.
 
 Detalhes em [docs/seguranca-e-acessos.md](docs/seguranca-e-acessos.md).
