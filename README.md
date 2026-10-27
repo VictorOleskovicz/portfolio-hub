@@ -53,8 +53,8 @@ O repositório segue [versionamento semântico](https://semver.org/lang/pt-BR/) 
 
 ## Implantação, segurança e colaboração
 
-- [Plano de implantação](docs/plano-implantacao.md) — 6 fases, montado com o Google Gemini ([como o Gemini foi usado](docs/gemini-guia.md))
-- [Segurança e controle de acesso](docs/seguranca-e-acessos.md) — ruleset na `main`, papéis de colaboradores, Dependabot, secret scanning
+- [Plano de implantação](docs/plano-implantacao.md): 6 fases, montado com o Google Gemini ([como o Gemini foi usado](docs/gemini-guia.md))
+- [Segurança e controle de acesso](docs/seguranca-e-acessos.md): ruleset na `main`, papéis de colaboradores, Dependabot, secret scanning
 - [Política de segurança](SECURITY.md) e [como contribuir](CONTRIBUTING.md)
 - **CI:** todo PR roda os testes do pipeline ETL e a verificação de links antes do merge
 
