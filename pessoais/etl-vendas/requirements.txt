@@ -1,0 +1,2 @@
+# O pipeline usa apenas a biblioteca padrão do Python (csv, sqlite3, logging).
+# Arquivo mantido para o Dependabot monitorar dependências futuras.

@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  testes-pipeline:
+    name: Testes do pipeline ETL
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Testes unitários
+        run: python -m unittest discover -s pessoais/etl-vendas/tests -v
+      - name: Execução de ponta a ponta
+        run: python pessoais/etl-vendas/src/pipeline.py
+
+  links-site:
+    name: Links do site e da documentação
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verifica links internos
+        run: python scripts/check_links.py

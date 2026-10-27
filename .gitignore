@@ -13,3 +13,11 @@ Thumbs.db
 # Editores
 .vscode/
 .idea/
+
+# Segredos e ambiente (nunca versionar)
+.env
+.env.*
+venv/
+*.log
+*.pem
+*.key

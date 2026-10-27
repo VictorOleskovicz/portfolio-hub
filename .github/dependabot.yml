@@ -1,0 +1,14 @@
+# Dependabot: mantém as dependências e as GitHub Actions atualizadas.
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels: ["dependencies"]
+
+  - package-ecosystem: "pip"
+    directory: "/pessoais/etl-vendas"
+    schedule:
+      interval: "weekly"
+    labels: ["dependencies"]
