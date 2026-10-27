@@ -2,7 +2,8 @@
 
 ## 1. Conta
 
-- **2FA** ativado na conta `@VictorOleskovicz` (dono e único admin).
+- Login com **passkey** configurada na conta `@VictorOleskovicz` (dono e único admin).
+- **2FA por aplicativo autenticador: pendente** — próxima ação, recomendada pelo Gemini (Settings → Password and authentication → Enable 2FA).
 
 ## 2. Ruleset da branch `main` (`protecao-main`)
 

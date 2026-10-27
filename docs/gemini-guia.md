@@ -24,7 +24,7 @@ Conversa: "Plano de Implantação PortfolioHUB", 26/10/2026.
 
 | Recomendação do Gemini | Onde está |
 |---|---|
-| 2FA na conta | Configuração da conta |
+| 2FA na conta | Passkey configurada; 2FA por app pendente |
 | Ruleset: PR obrigatório, *status checks*, bloquear *force push* | Settings → Rules |
 | `CODEOWNERS` com `* @VictorOleskovicz` | `.github/CODEOWNERS` |
 | `SECURITY.md` com canal de reporte | `SECURITY.md` |
